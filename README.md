@@ -27,5 +27,5 @@ python app.py
 ```
 
 
-## Using the code with stremlit
+## Using the code with streamlit
 ### Follow these steps to create an interface:
