@@ -18,7 +18,7 @@ $ cd RFP-anonymization
 ```
 Install the required packages:
 ```bash
-$ pip install -r requirements.txt
+$ pip install -r req.txt
 ```
 ## Usage
 ### To run the project, use the following command:
