@@ -18,10 +18,8 @@ st.title("ChatGroq Assistant")
 
 user_input = st.text_input("Enter an RFP text:")
 
-# Button to invoke the chain
 if st.button("Get Response"):
     if user_input:
-        # Invoke the chain with the user's input
         response = chain.invoke({"text": user_input})
         content = response.content
 
