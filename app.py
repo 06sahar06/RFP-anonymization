@@ -8,7 +8,7 @@ chat = ChatGroq(
     api_key="insert your api key here" 
 )
 
-system = "You will be provided with RFP texts (job descriptions) from a client, and your task is to anonymize the content by removing any details related to the company, such as the company's name, department, and contact information. The anonymized text should retain all essential job requirements, qualifications, and responsibilities while ensuring that no identifying company-specific information"
+system = "You will be provided with RFP text (job descriptions) from a client, and your task is to anonymize the content by removing any details related to the company, such as the company's name, department, and contact information. The anonymized text should retain all essential job requirements, qualifications, and responsibilities while ensuring that no identifying company-specific information"
 human = "{text}"
 prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
