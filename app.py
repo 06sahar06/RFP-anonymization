@@ -39,6 +39,7 @@ system = '''Your task is to anonymize Request for Proposal (RFP) text containing
                                     Review the final text to confirm all identifying information has been removed while preserving the essence of the job description.
                                     If you're unsure about a particular detail, err on the side of caution and remove or generalize it.
                                     Don't start with any introductory phrase, just start with the anonymized text.
+                                    Keep the original language of the input text
 
                                     Please process the provided RFP text according to these guidelines and present the anonymized version.'''
 human = "{text}"
