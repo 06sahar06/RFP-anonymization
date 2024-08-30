@@ -31,7 +31,7 @@ system = '''Your task is to anonymize Request for Proposal (RFP) text containing
                                     Desired soft skills
 
 
-                                    Replace specific identifiers such as the name of the company, any contact info, and the department name with generic terms.
+                                    Replace specific identifiers such as the name of the company, it's location or the department name with generic terms.
 
                                     Maintain the overall structure and flow of the original text.
                                     Ensure the anonymized version remains coherent and professionally worded.
